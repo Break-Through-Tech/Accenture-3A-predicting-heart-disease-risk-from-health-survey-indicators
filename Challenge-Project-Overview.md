@@ -66,12 +66,7 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 | Month | Milestone | Key Activities |
 |-------|-----------|----------------|
-| **September** | [Title]|  - Predictor variable/feature typing: explicitly characterize each variable (numerical, categorical) and document encoding decisions such as one-hot, ordinal, etc.   
-- Missing data: identify missing data and document how your team handled
-- Interrelationships: Examine the correlations between any variables and the potential implications
-- Exploratory Data Analysis: Analyze distributions of all features including bivariate analysis
-- Split data: divide data into training/validation/test with a fixed random seed, being sure to maintain the positive rate is maintain across the spits
-- DELIVERABLE: An EDA notebook with documented findings and written summary of conclusions |
+| **September** | [Title]|  - Predictor variable/feature typing: explicitly characterize each variable (numerical, categorical) and document encoding decisions such as one-hot, ordinal, etc.   - Missing data: identify missing data and document how your team handled   -Interrelationships: Examine the correlations between any variables and the potential implications.  - Exploratory Data Analysis: Analyze distributions of all features including bivariate analysis   - Split data: divide data into training/validation/test with a fixed random seed, being sure to maintain the positive rate is maintain across the spits - DELIVERABLE: An EDA notebook with documented findings and written summary of conclusions |
 | **October** | [Title] | Train baseline model, experiment with approaches, iterate |
 | **November** | [Title] | Finalize model, prepare presentation, document results |
 
