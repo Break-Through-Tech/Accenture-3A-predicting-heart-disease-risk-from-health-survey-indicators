@@ -52,10 +52,13 @@ Accenture is a global professional services company specializing in digital, clo
 ## 🎯 The Challenge
 
 ### Project Summary
-In this project, you will use anonymized national health-survey data from the CDC's Behavioral Risk Factor Surveillance System (BRFSS 2022) and supervised machine learning techniques (e.g. logistic regression, tree-based ensembles, and gradient boosting) to build an ML model that predicts whether an individual has a history of coronary heart disease or heart attack from lifestyle, demographic, and self-reported clinical risk factors. What makes this challenge project unique is the fact that it is an example of an imbalanced dataset, in which only 5-6% of the roughly 445k total records are of positive prevalence/class.
+In this project, you will use anonymized  national health-survey data from the CDC's Behavioral Risk Factor Surveillance System (BRFSS 2022) and supervised machine learning techniques (e.g. logistic regression, tree-based ensembles, and gradient boosting) to build an ML model that predicts whether an individual has a history of coronary heart disease or heart attack from lifestyle, demographic, and self-reported clinical risk factors.   What makes this challenge project unique is the fact that it is an example of an imbalanced dataset, in which only 5-6% of the roughly 445k total records are of positive prevalence/class.
 
 ### Success Criteria
-Metrics include PR-AUC, F1, ROC-AUC, Precision, Recall, and confusion matrix. Success is also measured by the model's effectiveness/fairness across demographic subgroups (race/ethnicity, age, sex, income) and identification of risk drivers via SHAP analysis.
+With imbalanced datasets, the traditional ML classification metrics such as Accuracy can be misleading. In this case, for example, a 94-95% accuracy could in theory fail to detect any of the positive class occurrences. Therefore, alternate metrics such as PR-AUC, F1, ROC-AUC should be used. Students should also consider how effective (or biased) the ML model across certain demographic subgroups, such as race/ethnicity, age sex, and income.
+
+### Stretch Goals
+A stretch goal for this project would be to attempt the ML prediction with a neural network implementation versus classic ML algorithms.
 
 ### Project Milestones
 
@@ -63,9 +66,14 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 | Month | Milestone | Key Activities |
 |-------|-----------|----------------|
-| **September** | Data Understanding | Explore dataset, handle missing values, document findings |
-| **October** | Model Development | Train baseline model, experiment with approaches, iterate |
-| **November** | Evaluation & Presentation | Finalize model, prepare presentation, document results |
+| **September** | [Title]|  Predictor variable/feature typing: explicitly characterize each variable (numerical, categorical) and document encoding decisions such as one-hot, ordinal, etc.
+•       Missing data: identify missing data and document how your team handled
+•       Interrelationships: Examine the correlations between any variables and the potential implications 
+•       Exploratory Data Analysis: Analyze distributions of all features including bivariate analysis
+•       Split data: divide data into training/validation/test with a fixed random seed, being sure to maintain the positive rate is maintain across the spits
+•       DELEIVERABLE: An EDA notebook with documented findings and written summary of conclusions |
+| **October** | [Title] | Train baseline model, experiment with approaches, iterate |
+| **November** | [Title] | Finalize model, prepare presentation, document results |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
@@ -73,10 +81,10 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 ## 📊 Dataset
 
-**Name and Source:** Anonymized national health-survey data from the CDC's Behavioral Risk Factor Surveillance System (BRFSS 2022)  
+**Name and Source:** Indicators of Heart Disease (2022)
 **Format:** CSV  
 **Size:** under 1gb  
-**Location:** [Available at Kaggle](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
+**Location:** https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 
 ### Key Details
 - Anonymized national health-survey data containing numerical and categorical data.
@@ -90,7 +98,7 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 **ML Problem Type:** Classification
 
 **Recommended Libraries:**
-- Supervised machine learning techniques: Logistic Regression (L1/L2), Random Forest, K-Nearest Neighbors, Gradient Boosting (XGBoost, LightGBM), Neural Networks (stretch goal). Tools: Python, Google Colab.
+- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
 
 **Evaluation Metrics:**
 - PR-AUC, F1 Score, ROC-AUC, Precision, Recall, and confusion matrix.
@@ -102,18 +110,19 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [CDC Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/index.html)
-- [Heart Disease Data Analysis](https://www.kaggle.com/datasets/)
+- [e.g., Link to an article or blog post about the problem domain]
+- [e.g., Link to an industry report or case study]
 
 **Technical Tutorials:**
-- [Introduction to Machine Learning in Python](https://www.datacamp.com/community/tutorials/machine-learning-python)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+- [e.g., Link to a free tutorial on the ML technique(s) involved]
+- [e.g., Link to documentation for a key library or tool]
 
 **Code Examples:**
-- [Kaggle Notebook on Heart Disease Prediction](https://www.kaggle.com/)
+- [e.g., Link to a relevant GitHub repo]
+- [e.g., Link to a sample implementation or starter code]
 
 **Other:**
-- [SHAP: SHapley Additive exPlanations](https://shap.readthedocs.io/en/latest/)
+- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
 
 *Feel free to explore beyond these, and share anything interesting you find with me!*
 
@@ -121,14 +130,19 @@ The following resources will help your team understand the problem space and pot
 
 ## 🤝 How We'll Work Together
 
-**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** Slack (Break Through Tech workspace)  
-**Response time:** Within 48 hours on weekdays  
+**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 
-**Recommended Tools:**
-- **Coding:** Google Colab, VS Code
-- **Collaboration:** GitHub, Notion
-- **Virtual Meetings:** Zoom, Google Meet
+ **Other ways to reach out to me with questions:** 
+* [e.g., Your team's channel within Break Through Tech’s Discord space]
+* [e.g., Email; please copy your teammates and AI Studio Coach]
+* [e.g., Request a team check-in on Zoom]
+* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
+
+> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
+
+**Recommended free coding / collaboration tools**
+* […]
+* […]
 
 ---
 
@@ -138,13 +152,10 @@ The following resources will help your team understand the problem space and pot
 2. **Begin reviewing the dataset** using the link above
 3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
-I'm excited to work with you!
+I’m excited to work with you!
 
 ---
 
 ## ❓ Questions?
 
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
-
-
----
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
