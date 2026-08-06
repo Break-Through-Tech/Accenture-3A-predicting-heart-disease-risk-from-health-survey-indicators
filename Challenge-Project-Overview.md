@@ -76,7 +76,7 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 ## 📊 Dataset
 
-**Name and Source:** Indicators of Heart Disease (2022)
+**Name and Source:** Indicators of Heart Disease (2022)   
 **Format:** CSV  
 **Size:** under 1gb  
 **Location:** https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
