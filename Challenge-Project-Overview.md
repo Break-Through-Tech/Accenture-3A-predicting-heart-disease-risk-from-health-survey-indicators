@@ -106,7 +106,7 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
+- [https://machinelearningmastery.com/5-effective-ways-to-handle-imbalanced-data-in-machine-learning/]
 - [e.g., Link to an industry report or case study]
 
 **Technical Tutorials:**
