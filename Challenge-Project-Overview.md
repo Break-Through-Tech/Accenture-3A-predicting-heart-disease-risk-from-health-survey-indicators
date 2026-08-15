@@ -107,7 +107,7 @@ The following resources will help your team understand the problem space and pot
 
 **Background Reading:**
 - https://machinelearningmastery.com/5-effective-ways-to-handle-imbalanced-data-in-machine-learning/
-- [e.g., Link to an industry report or case study]
+- https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets
 
 **Technical Tutorials:**
 - [e.g., Link to a free tutorial on the ML technique(s) involved]
