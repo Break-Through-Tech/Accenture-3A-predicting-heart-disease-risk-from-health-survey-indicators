@@ -38,7 +38,8 @@ The project presents an engaging application of machine learning to real-world h
 # Predicting Heart Disease Risk from Health Survey Indicators
 
 **Company / Org:** Accenture  
-**Challenge Advisor:** Joseph Chiasson, josephlchiasson@outlook.com  
+**Challenge Advisor:** Joseph Chiasson, josephlchiasson@outlook.com   
+**AI Studio Coach:** Swagath Babu, swagath.babu@breakthroughtech.org    
 **Program:** Break Through Tech AI Studio - Fall 2026
 
 ---
