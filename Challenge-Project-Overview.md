@@ -110,7 +110,7 @@ The following resources will help your team understand the problem space and pot
 - https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets
 
 **Technical Tutorials:**
-- [e.g., Link to a free tutorial on the ML technique(s) involved]
+- https://www.geeksforgeeks.org/machine-learning/smote-for-imbalanced-classification-with-python/
 - [e.g., Link to documentation for a key library or tool]
 
 **Code Examples:**
