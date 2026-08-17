@@ -111,7 +111,8 @@ The following resources will help your team understand the problem space and pot
 
 **Technical Tutorials:**
 - https://www.geeksforgeeks.org/machine-learning/smote-for-imbalanced-classification-with-python/
-- [e.g., Link to documentation for a key library or tool]
+- https://arxiv.org/pdf/2310.07917
+- https://imbalanced-learn.org/stable/references/over_sampling.html
 
 **Code Examples:**
 - [e.g., Link to a relevant GitHub repo]
